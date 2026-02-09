@@ -15,7 +15,7 @@ Actualmente he desarrollado proyectos prácticos en SQL, Python y visualización
 **Mi rol:** Consultas SQL avanzadas, análisis estadístico y validación de hipótesis.  
 **Tecnologías:** SQL, PostgreSQL, Python, pandas, estadística inferencial.  
 **Resultado:** Identificación de factores climáticos y empresariales que influyen en la duración de viajes.  
-**Repositorio:** [link a tu repo]
+**Repositorio:** https://github.com/paolaromerop/taxi-sql-anaysis.git
 
 ---
 
