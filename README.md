@@ -24,7 +24,7 @@ Actualmente he desarrollado proyectos prácticos en SQL, Python y visualización
 **Mi rol:** Desarrollo completo, despliegue y gestión de dependencias.  
 **Tecnologías:** Python, pandas, Streamlit, Plotly, GitHub, Render.  
 **Resultado:** App funcional accesible públicamente.  
-**Repositorio:** [link]
+**Repositorio:** [https://github.com/paolaromerop/proyecto_autos?tab=readme-ov-file]
 
 ---
 
