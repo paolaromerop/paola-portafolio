@@ -15,7 +15,7 @@ Actualmente he desarrollado proyectos prácticos en SQL, Python y visualización
 **Mi rol:** Consultas SQL avanzadas, análisis estadístico y validación de hipótesis.  
 **Tecnologías:** SQL, PostgreSQL, Python, pandas, estadística inferencial.  
 **Resultado:** Identificación de factores climáticos y empresariales que influyen en la duración de viajes.  
-**Repositorio:** https://github.com/paolaromerop/taxi-sql-anaysis.git
+**Repositorio:** https://github.com/paolaromerop/taxi-sql-anaysis/blob/main/Analisis_de_viajes_en_taxi.ipynb
 
 ---
 
@@ -33,7 +33,7 @@ Actualmente he desarrollado proyectos prácticos en SQL, Python y visualización
 **Mi rol:** EDA, visualización, pruebas de hipótesis.  
 **Tecnologías:** Python, pandas, NumPy, matplotlib, seaborn.  
 **Resultado:** Insights sobre plataformas y géneros con mayor potencial comercial.  
-**Repositorio:** https://github.com/paolaromerop/sales-videogames-python-analysis.git
+**Repositorio:** https://github.com/paolaromerop/sales-videogames-python-analysis/blob/main/Analisis_de_ventas_de_videojuegos.ipynb
 
 ---
 
