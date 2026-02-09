@@ -42,4 +42,5 @@ Python, SQL, pandas, NumPy, matplotlib, seaborn, Streamlit, Git, PostgreSQL.
 
 ## Contacto
 LinkedIn: https://www.linkedin.com/in/paolaromeroperez
+
 Email: paola.romero2812@gmail.com
