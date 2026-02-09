@@ -24,7 +24,7 @@ Actualmente he desarrollado proyectos prácticos en SQL, Python y visualización
 **Mi rol:** Desarrollo completo, despliegue y gestión de dependencias.  
 **Tecnologías:** Python, pandas, Streamlit, Plotly, GitHub, Render.  
 **Resultado:** App funcional accesible públicamente.  
-**Repositorio:** [https://github.com/paolaromerop/proyecto_autos?tab=readme-ov-file]
+**Repositorio:** https://github.com/paolaromerop/proyecto_autos?tab=readme-ov-file
 
 ---
 
@@ -33,7 +33,7 @@ Actualmente he desarrollado proyectos prácticos en SQL, Python y visualización
 **Mi rol:** EDA, visualización, pruebas de hipótesis.  
 **Tecnologías:** Python, pandas, NumPy, matplotlib, seaborn.  
 **Resultado:** Insights sobre plataformas y géneros con mayor potencial comercial.  
-**Repositorio:** [link]
+**Repositorio:** https://github.com/paolaromerop/sales-videogames-python-analysis.git
 
 ---
 
