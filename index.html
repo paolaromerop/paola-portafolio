@@ -2,97 +2,981 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Paola Romero | Data Scientist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Portafolio profesional de Paola Romero, Data Analyst y Business Intelligence Analyst."
+  >
+
+  <title>Paola Romero | Data Analyst Portfolio</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="container">
+  <!-- Navegación -->
+  <nav class="navbar">
+    <div class="nav-container">
 
-  <header>
-    <img src="images/foto-paola.png" class="profile-pic">
-    <h1>Paola Romero</h1>
-    <h2>Data Scientist</h2>
-    <p class="subtitle">
-      Análisis de datos, estadística y visualización para resolver problemas reales.
-    </p>
-  </header>
+      <a href="#inicio" class="nav-logo">
+        Paola Romero
+      </a>
 
-  <section>
-    <h3>Sobre mí</h3>
+      <div class="nav-links">
+        <a href="#sobre-mi" data-es="Sobre mí" data-en="About">
+          Sobre mí
+        </a>
+
+        <a href="#habilidades" data-es="Habilidades" data-en="Skills">
+          Habilidades
+        </a>
+
+        <a href="#proyectos" data-es="Proyectos" data-en="Projects">
+          Proyectos
+        </a>
+
+        <a href="#experiencia" data-es="Experiencia" data-en="Experience">
+          Experiencia
+        </a>
+
+        <a href="#contacto" data-es="Contacto" data-en="Contact">
+          Contacto
+        </a>
+      </div>
+
+      <div class="language-switcher">
+        <button
+          id="btn-es"
+          class="language-button active"
+          type="button"
+        >
+          ES
+        </button>
+
+        <span>|</span>
+
+        <button
+          id="btn-en"
+          class="language-button"
+          type="button"
+        >
+          EN
+        </button>
+      </div>
+
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Portada -->
+    <section id="inicio" class="hero-section">
+
+      <div class="hero-content">
+
+        <div class="hero-text">
+
+          <p
+            class="eyebrow"
+            data-es="Hola, soy"
+            data-en="Hi, I'm"
+          >
+            Hola, soy
+          </p>
+
+          <h1>Paola Romero</h1>
+
+          <h2>
+            Data Analyst |
+            Business Intelligence Analyst
+          </h2>
+
+          <p
+            class="hero-title"
+            data-es="Transformo datos en decisiones de negocio."
+            data-en="Turning data into business decisions."
+          >
+            Transformo datos en decisiones de negocio.
+          </p>
+
+          <p
+            class="hero-description"
+            data-es="Cuento con más de 8 años de experiencia en análisis de datos, reporting, automatización y visualización de información para apoyar decisiones estratégicas."
+            data-en="I have more than 8 years of experience in data analysis, reporting, process automation, and data visualization to support strategic decision-making."
+          >
+            Cuento con más de 8 años de experiencia en análisis de datos,
+            reporting, automatización y visualización de información para
+            apoyar decisiones estratégicas.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a
+              href="#proyectos"
+              class="button button-primary"
+              data-es="Ver proyectos"
+              data-en="View projects"
+            >
+              Ver proyectos
+            </a>
+
+            <a
+              id="cv-button"
+              href="files/Paola_Romero_Data_Analyst_CV_ES.pdf"
+              class="button button-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-es="Descargar CV"
+              data-en="Download resume"
+            >
+              Descargar CV
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="hero-image-container">
+          <img
+            src="images/foto-paola.png"
+            alt="Fotografía profesional de Paola Romero"
+            class="profile-pic"
+          >
+        </div>
+
+      </div>
+
+      <div class="stats-grid">
+
+        <article class="stat-card">
+          <span class="stat-number">8+</span>
+          <span
+            class="stat-label"
+            data-es="años de experiencia"
+            data-en="years of experience"
+          >
+            años de experiencia
+          </span>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-number">40%</span>
+          <span
+            class="stat-label"
+            data-es="menos tiempo en cierres mensuales"
+            data-en="reduction in monthly closing time"
+          >
+            menos tiempo en cierres mensuales
+          </span>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-number">30%</span>
+          <span
+            class="stat-label"
+            data-es="menos tiempo en reportes"
+            data-en="reduction in reporting time"
+          >
+            menos tiempo en reportes
+          </span>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-number">0.90</span>
+          <span
+            class="stat-label"
+            data-es="AUC-ROC en modelo de churn"
+            data-en="AUC-ROC in churn model"
+          >
+            AUC-ROC en modelo de churn
+          </span>
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="content-section">
+
+      <div class="section-heading">
+        <p
+          class="section-label"
+          data-es="Mi perfil"
+          data-en="My profile"
+        >
+          Mi perfil
+        </p>
+
+        <h2 data-es="Sobre mí" data-en="About me">
+          Sobre mí
+        </h2>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-text">
+
+          <p
+            data-es="Soy Analista de Datos y Business Intelligence Analyst con más de 8 años de experiencia trabajando con información operativa, financiera y comercial en empresas de consumo masivo y servicios."
+            data-en="I am a Data Analyst and Business Intelligence Analyst with more than 8 years of experience working with operational, financial, and commercial data in consumer goods and service companies."
+          >
+            Soy Analista de Datos y Business Intelligence Analyst con más de
+            8 años de experiencia trabajando con información operativa,
+            financiera y comercial en empresas de consumo masivo y servicios.
+          </p>
+
+          <p
+            data-es="A lo largo de mi carrera he desarrollado dashboards ejecutivos, automatizado procesos y convertido información compleja en insights claros para diferentes perfiles de negocio."
+            data-en="Throughout my career, I have developed executive dashboards, automated processes, and transformed complex information into clear insights for different business stakeholders."
+          >
+            A lo largo de mi carrera he desarrollado dashboards ejecutivos,
+            automatizado procesos y convertido información compleja en insights
+            claros para diferentes perfiles de negocio.
+          </p>
+
+          <p
+            data-es="Recientemente obtuve una certificación profesional en Ciencia de Datos por TripleTen, fortaleciendo mis habilidades en Python, SQL, machine learning, análisis estadístico y modelado predictivo."
+            data-en="I recently earned a professional certificate in Data Science from TripleTen, strengthening my skills in Python, SQL, machine learning, statistical analysis, and predictive modeling."
+          >
+            Recientemente obtuve una certificación profesional en Ciencia de
+            Datos por TripleTen, fortaleciendo mis habilidades en Python, SQL,
+            machine learning, análisis estadístico y modelado predictivo.
+          </p>
+
+        </div>
+
+        <div class="about-highlight">
+
+          <h3
+            data-es="Mi propuesta de valor"
+            data-en="My value proposition"
+          >
+            Mi propuesta de valor
+          </h3>
+
+          <p
+            data-es="Combino experiencia real de negocio con herramientas modernas de análisis, visualización y ciencia de datos."
+            data-en="I combine real-world business experience with modern data analysis, visualization, and data science tools."
+          >
+            Combino experiencia real de negocio con herramientas modernas de
+            análisis, visualización y ciencia de datos.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Lo que hago -->
+    <section class="content-section alternate-section">
+
+      <div class="section-heading">
+        <p
+          class="section-label"
+          data-es="Áreas de especialidad"
+          data-en="Areas of expertise"
+        >
+          Áreas de especialidad
+        </p>
+
+        <h2 data-es="Lo que hago" data-en="What I do">
+          Lo que hago
+        </h2>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card">
+          <div class="service-icon">📊</div>
+
+          <h3 data-es="Análisis de datos" data-en="Data analysis">
+            Análisis de datos
+          </h3>
+
+          <p
+            data-es="Limpieza, exploración y análisis de datos para detectar tendencias, desviaciones y oportunidades de mejora."
+            data-en="Data cleaning, exploration, and analysis to identify trends, deviations, and improvement opportunities."
+          >
+            Limpieza, exploración y análisis de datos para detectar tendencias,
+            desviaciones y oportunidades de mejora.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">📈</div>
+
+          <h3
+            data-es="Business Intelligence"
+            data-en="Business intelligence"
+          >
+            Business Intelligence
+          </h3>
+
+          <p
+            data-es="Diseño de dashboards, KPIs y reportes ejecutivos que facilitan la toma de decisiones."
+            data-en="Design of dashboards, KPIs, and executive reports that support business decision-making."
+          >
+            Diseño de dashboards, KPIs y reportes ejecutivos que facilitan la
+            toma de decisiones.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">⚙️</div>
+
+          <h3
+            data-es="Automatización de procesos"
+            data-en="Process automation"
+          >
+            Automatización de procesos
+          </h3>
+
+          <p
+            data-es="Optimización de reportes y tareas administrativas mediante Excel, macros y herramientas digitales."
+            data-en="Optimization of reporting and administrative tasks through Excel, VBA macros, and digital tools."
+          >
+            Optimización de reportes y tareas administrativas mediante Excel,
+            macros y herramientas digitales.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🤖</div>
+
+          <h3
+            data-es="Análisis predictivo"
+            data-en="Predictive analytics"
+          >
+            Análisis predictivo
+          </h3>
+
+          <p
+            data-es="Desarrollo y evaluación de modelos predictivos para resolver problemas de negocio."
+            data-en="Development and evaluation of predictive models to solve business problems."
+          >
+            Desarrollo y evaluación de modelos predictivos para resolver
+            problemas de negocio.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="content-section">
+
+      <div class="section-heading">
+        <p
+          class="section-label"
+          data-es="Stack técnico"
+          data-en="Technical stack"
+        >
+          Stack técnico
+        </p>
+
+        <h2
+          data-es="Herramientas y habilidades"
+          data-en="Tools and skills"
+        >
+          Herramientas y habilidades
+        </h2>
+      </div>
+
+      <div class="skills-grid">
+        <span class="skill-pill">Power BI</span>
+        <span class="skill-pill">Excel</span>
+        <span class="skill-pill">SQL</span>
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">Pandas</span>
+        <span class="skill-pill">NumPy</span>
+        <span class="skill-pill">Scikit-learn</span>
+        <span class="skill-pill">CatBoost</span>
+        <span class="skill-pill">Machine Learning</span>
+        <span class="skill-pill">Statistical Analysis</span>
+        <span class="skill-pill">Predictive Modeling</span>
+        <span class="skill-pill">Git & GitHub</span>
+        <span class="skill-pill">Streamlit</span>
+        <span class="skill-pill">Plotly</span>
+        <span class="skill-pill">VBA Macros</span>
+      </div>
+
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="content-section alternate-section">
+
+      <div class="section-heading">
+        <p
+          class="section-label"
+          data-es="Evidencia de mi trabajo"
+          data-en="Evidence of my work"
+        >
+          Evidencia de mi trabajo
+        </p>
+
+        <h2
+          data-es="Proyectos destacados"
+          data-en="Featured projects"
+        >
+          Proyectos destacados
+        </h2>
+
+        <p
+          class="section-intro"
+          data-es="Una selección de proyectos que muestran mi experiencia en análisis, modelado predictivo, SQL y desarrollo de aplicaciones."
+          data-en="A selection of projects showcasing my experience in data analysis, predictive modeling, SQL, and application development."
+        >
+          Una selección de proyectos que muestran mi experiencia en análisis,
+          modelado predictivo, SQL y desarrollo de aplicaciones.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Churn -->
+        <article class="project-card">
+
+          <div class="project-image project-image-placeholder">
+            <span>Churn Prediction</span>
+          </div>
+
+          <div class="project-content">
+
+            <p class="project-category">
+              Data Science · Machine Learning
+            </p>
+
+            <h3
+              data-es="Predicción de abandono de clientes"
+              data-en="Customer churn prediction"
+            >
+              Predicción de abandono de clientes
+            </h3>
+
+            <p
+              data-es="Modelo predictivo para identificar clientes con riesgo de cancelación mediante integración de datos, ingeniería de variables y comparación de modelos de clasificación."
+              data-en="Predictive model to identify customers at risk of cancellation through data integration, feature engineering, and classification model comparison."
+            >
+              Modelo predictivo para identificar clientes con riesgo de
+              cancelación mediante integración de datos, ingeniería de variables
+              y comparación de modelos de clasificación.
+            </p>
+
+            <div class="project-result">
+              <strong data-es="Resultado:" data-en="Result:">
+                Resultado:
+              </strong>
+              AUC-ROC 0.90 · F1-score 0.69
+            </div>
+
+            <div class="project-tags">
+              <span>Python</span>
+              <span>CatBoost</span>
+              <span>Scikit-learn</span>
+              <span>Machine Learning</span>
+            </div>
+
+            <div class="project-buttons">
+              <a
+                href="#"
+                class="project-link disabled-link"
+                aria-disabled="true"
+                data-es="Repositorio próximamente"
+                data-en="Repository coming soon"
+              >
+                Repositorio próximamente
+              </a>
+            </div>
+
+          </div>
+
+        </article>
+
+        <!-- Taxi forecasting -->
+        <article class="project-card">
+
+          <div class="project-image project-image-placeholder">
+            <span>Taxi Forecasting</span>
+          </div>
+
+          <div class="project-content">
+
+            <p class="project-category">
+              Data Science · Time Series
+            </p>
+
+            <h3
+              data-es="Predicción de demanda de taxis"
+              data-en="Taxi demand forecasting"
+            >
+              Predicción de demanda de taxis
+            </h3>
+
+            <p
+              data-es="Modelo de series temporales para predecir la demanda de taxis por hora utilizando variables temporales, rezagos y algoritmos de regresión."
+              data-en="Time series model to predict hourly taxi demand using temporal features, lag variables, and regression algorithms."
+            >
+              Modelo de series temporales para predecir la demanda de taxis por
+              hora utilizando variables temporales, rezagos y algoritmos de
+              regresión.
+            </p>
+
+            <div class="project-result">
+              <strong data-es="Resultado:" data-en="Result:">
+                Resultado:
+              </strong>
+              RMSE 43.10
+            </div>
+
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>Time Series</span>
+              <span>Feature Engineering</span>
+            </div>
+
+            <div class="project-buttons">
+              <a
+                href="#"
+                class="project-link disabled-link"
+                aria-disabled="true"
+                data-es="Repositorio próximamente"
+                data-en="Repository coming soon"
+              >
+                Repositorio próximamente
+              </a>
+            </div>
+
+          </div>
+
+        </article>
+
+        <!-- SQL -->
+        <article class="project-card">
+
+          <img
+            src="images/taxi.png"
+            alt="Visualización del proyecto de análisis de viajes en taxi"
+            class="project-image"
+          >
+
+          <div class="project-content">
+
+            <p class="project-category">
+              SQL · Statistical Analysis
+            </p>
+
+            <h3
+              data-es="Análisis de viajes en taxi"
+              data-en="Taxi trips analysis"
+            >
+              Análisis de viajes en taxi
+            </h3>
+
+            <p
+              data-es="Análisis de bases de datos relacionales para identificar patrones de demanda y evaluar el impacto del clima en la duración de los viajes."
+              data-en="Relational database analysis to identify demand patterns and evaluate the impact of weather on trip duration."
+            >
+              Análisis de bases de datos relacionales para identificar patrones
+              de demanda y evaluar el impacto del clima en la duración de los
+              viajes.
+            </p>
+
+            <div class="project-result">
+              <strong data-es="Resultado:" data-en="Result:">
+                Resultado:
+              </strong>
+
+              <span
+                data-es="Identificación de factores externos que influyen en la demanda y duración de los viajes."
+                data-en="Identification of external factors influencing taxi demand and trip duration."
+              >
+                Identificación de factores externos que influyen en la demanda
+                y duración de los viajes.
+              </span>
+            </div>
+
+            <div class="project-tags">
+              <span>SQL</span>
+              <span>PostgreSQL</span>
+              <span>Python</span>
+              <span>Statistics</span>
+            </div>
+
+            <div class="project-buttons">
+              <a
+                href="https://github.com/paolaromerop/taxi-sql-anaysis"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+                data-es="Ver repositorio"
+                data-en="View repository"
+              >
+                Ver repositorio
+              </a>
+            </div>
+
+          </div>
+
+        </article>
+
+        <!-- Web app -->
+        <article class="project-card">
+
+          <img
+            src="images/vehicles.png"
+            alt="Aplicación web interactiva para análisis de datos"
+            class="project-image"
+          >
+
+          <div class="project-content">
+
+            <p class="project-category">
+              Python · Streamlit · Data Visualization
+            </p>
+
+            <h3
+              data-es="Aplicación web de análisis de datos"
+              data-en="Interactive data analysis web application"
+            >
+              Aplicación web de análisis de datos
+            </h3>
+
+            <p
+              data-es="Aplicación web interactiva para exploración de datos, desarrollada con Python, Streamlit y Plotly, y desplegada en la nube."
+              data-en="Interactive web application for exploratory data analysis, developed with Python, Streamlit, and Plotly, and deployed to the cloud."
+            >
+              Aplicación web interactiva para exploración de datos, desarrollada
+              con Python, Streamlit y Plotly, y desplegada en la nube.
+            </p>
+
+            <div class="project-result">
+              <strong data-es="Resultado:" data-en="Result:">
+                Resultado:
+              </strong>
+
+              <span
+                data-es="Aplicación funcional y accesible públicamente."
+                data-en="Fully functional and publicly accessible application."
+              >
+                Aplicación funcional y accesible públicamente.
+              </span>
+            </div>
+
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>Plotly</span>
+              <span>Render</span>
+            </div>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://github.com/paolaromerop/proyecto_autos"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+                data-es="Ver repositorio"
+                data-en="View repository"
+              >
+                Ver repositorio
+              </a>
+
+              <a
+                href="https://proyecto-autos.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link secondary-link"
+                data-es="Ver aplicación"
+                data-en="View live app"
+              >
+                Ver aplicación
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="content-section">
+
+      <div class="section-heading">
+        <p
+          class="section-label"
+          data-es="Trayectoria"
+          data-en="Career path"
+        >
+          Trayectoria
+        </p>
+
+        <h2
+          data-es="Experiencia profesional"
+          data-en="Professional experience"
+        >
+          Experiencia profesional
+        </h2>
+      </div>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+
+          <div class="timeline-marker"></div>
+
+          <div class="timeline-content">
+
+            <p class="timeline-date">
+              2023 —
+              <span data-es="Actualidad" data-en="Present">
+                Actualidad
+              </span>
+            </p>
+
+            <h3
+              data-es="Consultora de Datos y Procesos"
+              data-en="Data & Process Consultant"
+            >
+              Consultora de Datos y Procesos
+            </h3>
+
+            <h4>Kya-Ro</h4>
+
+            <p
+              data-es="Análisis de métricas operativas y financieras, desarrollo de dashboards y automatización de procesos de nómina, pagos y facturación."
+              data-en="Operational and financial metrics analysis, dashboard development, and automation of payroll, payment, and invoicing processes."
+            >
+              Análisis de métricas operativas y financieras, desarrollo de
+              dashboards y automatización de procesos de nómina, pagos y
+              facturación.
+            </p>
+
+          </div>
+
+        </article>
+
+        <article class="timeline-item">
+
+          <div class="timeline-marker"></div>
+
+          <div class="timeline-content">
+
+            <p class="timeline-date">
+              2017 — 2023
+            </p>
+
+            <h3>Data Analyst / Supervisor</h3>
+
+            <h4>Unilever México · Helados Holanda</h4>
+
+            <p
+              data-es="Desarrollo de dashboards ejecutivos nacionales, automatización de reportes y liderazgo de iniciativas de análisis para apoyar decisiones operativas."
+              data-en="Development of nationwide executive dashboards, reporting automation, and leadership of analytics initiatives to support operational decision-making."
+            >
+              Desarrollo de dashboards ejecutivos nacionales, automatización
+              de reportes y liderazgo de iniciativas de análisis para apoyar
+              decisiones operativas.
+            </p>
+
+          </div>
+
+        </article>
+
+        <article class="timeline-item">
+
+          <div class="timeline-marker"></div>
+
+          <div class="timeline-content">
+
+            <p class="timeline-date">
+              2015 — 2017
+            </p>
+
+            <h3
+              data-es="Desarrolladora de soluciones en Excel"
+              data-en="Excel Solutions Developer"
+            >
+              Desarrolladora de soluciones en Excel
+            </h3>
+
+            <h4
+              data-es="Proyecto independiente"
+              data-en="Independent project"
+            >
+              Proyecto independiente
+            </h4>
+
+            <p
+              data-es="Diseño y comercialización de una plataforma en Excel VBA que redujo hasta en 80% el tiempo de elaboración de reportes médicos."
+              data-en="Designed and commercialized an Excel VBA platform that reduced medical report preparation time by up to 80%."
+            >
+              Diseño y comercialización de una plataforma en Excel VBA que
+              redujo hasta en 80% el tiempo de elaboración de reportes médicos.
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- Educación -->
+    <section class="content-section alternate-section">
+
+      <div class="section-heading">
+        <p
+          class="section-label"
+          data-es="Preparación académica"
+          data-en="Academic background"
+        >
+          Preparación académica
+        </p>
+
+        <h2
+          data-es="Educación y certificaciones"
+          data-en="Education and certifications"
+        >
+          Educación y certificaciones
+        </h2>
+      </div>
+
+      <div class="education-grid">
+
+        <article class="education-card">
+
+          <p class="education-year">2026</p>
+
+          <h3
+            data-es="Certificación profesional en Ciencia de Datos"
+            data-en="Professional Certificate in Data Science"
+          >
+            Certificación profesional en Ciencia de Datos
+          </h3>
+
+          <h4>TripleTen</h4>
+
+          <p>
+            Python · SQL · Machine Learning · Statistical Analysis · GitHub
+          </p>
+
+        </article>
+
+        <article class="education-card">
+
+          <p class="education-year">2016</p>
+
+          <h3
+            data-es="Ingeniería Química"
+            data-en="Bachelor of Science in Chemical Engineering"
+          >
+            Ingeniería Química
+          </h3>
+
+          <h4>
+            Universidad Autónoma Metropolitana
+          </h4>
+
+          <p>UAM Azcapotzalco</p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact-section">
+
+      <div class="contact-content">
+
+        <p
+          class="section-label"
+          data-es="Hablemos"
+          data-en="Let's connect"
+        >
+          Hablemos
+        </p>
+
+        <h2
+          data-es="¿Tienes una oportunidad o proyecto en mente?"
+          data-en="Do you have an opportunity or project in mind?"
+        >
+          ¿Tienes una oportunidad o proyecto en mente?
+        </h2>
+
+        <p
+          data-es="Estoy abierta a oportunidades en Data Analytics, Business Intelligence y Data Science."
+          data-en="I am open to opportunities in Data Analytics, Business Intelligence, and Data Science."
+        >
+          Estoy abierta a oportunidades en Data Analytics, Business
+          Intelligence y Data Science.
+        </p>
+
+        <div class="contact-buttons">
+
+          <a
+            href="mailto:paola.romero2812@gmail.com"
+            class="button button-primary"
+            data-es="Enviar correo"
+            data-en="Send email"
+          >
+            Enviar correo
+          </a>
+
+          <a
+            href="https://linkedin.com/in/paolaromeroperez"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button button-secondary"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/paolaromerop"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button button-secondary"
+          >
+            GitHub
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+
     <p>
-      Soy Data Scientist en formación con enfoque en análisis de datos, estadística y desarrollo de soluciones basadas en datos. Me interesa transformar datos en información clara para apoyar la toma de decisiones y resolver problemas reales de negocio.
-    <p>
-      Actualmente he desarrollado proyectos prácticos en SQL, Python y visualización de datos como parte de un bootcamp intensivo.
+      © 2026 Paola Romero ·
+      <span
+        data-es="Portafolio de Data Analytics"
+        data-en="Data Analytics Portfolio"
+      >
+        Portafolio de Data Analytics
+      </span>
     </p>
-  </section>
 
-  <section>
-    <h3>Proyectos</h3>
+  </footer>
 
-    <div class="project">
-      <h4>Análisis de viajes en Taxi</h4>
-      <p><strong>Tecnologías:</strong> SQL, PostgreSQL, Python, pandas, estadística inferencial.</p>
-      <p>
-      <p><strong>Mi rol:</strong> Consultas SQL avanzadas, análisis estadístico y validación de hipótesis.</p>
-      <p>
-        Análisis de datos relacionales para identificar patrones de demanda
-        y factores climáticos que influyen en la duración de viajes.
-      <p>
-      <p><strong>Resultado:</strong> Identificación de factores climáticos y empresariales que influyen en la duración de viajes.</p>
-      <img src="images/taxi.png" class="project-img">
-      </p>
-      <a href="https://github.com/paolaromerop/taxi-sql-anaysis.git" target="_blank">
-        Ver repositorio
-      </a>
-    </div>
-
-    <div class="project">
-      <h4>Data Web App</h4>
-      <p><strong>Tecnologías:</strong> Python, pandas, Streamlit, Plotly, GitHub, Render.</p>
-      <p>
-      <p><strong>Mi rol:</strong> Desarrollo completo, despliegue y gestión de dependencias.</p>
-      <p>
-        Aplicación web interactiva para análisis exploratorio de datos,
-        desplegada en la nube.
-      <p>
-      <p><strong>Resultado:</strong> App funcional accesible públicamente.</p>
-      <img src="images/vehicles.png" class="project-img">
-      </p>
-      <a href="https://github.com/paolaromerop/proyecto_autos.git" target="_blank">
-        Ver repositorio
-      </p>
-      <a href="https://proyecto-autos.onrender.com" target="_blank">
-        Ver aplicación web interactiva
-      </a>
-    </div>
-
-    <div class="project">
-      <h4>Análisis de ventas de videojuegos</h4>
-      <p><strong>Tecnologías:</strong>Python, pandas, NumPy, matplotlib, seaborn.</p>
-      <p>
-      <p><strong>Mi rol:</strong> EDA, visualización, pruebas de hipótesis.</p>
-      <p>
-        Identificación de patrones de éxito comercial mediante EDA
-        y pruebas de hipótesis.
-      <p>
-      <p><strong>Resultado:</strong> Insights sobre plataformas y géneros con mayor potencial comercial.</p>
-      <img src="images/videogames.png" class="project-img">
-      </p>
-      <a href="https://github.com/paolaromerop/sales-videogames-python-analysis.git" target="_blank">
-        Ver repositorio
-      </a>
-    </div>
-
-  </section>
-
-  <section>
-    <h3>Contacto</h3>
-    <p>Email: paola.romero2812@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/paolaromeroperez</p>
-  </section>
-
-</div>
+  <script src="script.js"></script>
 
 </body>
 </html>
