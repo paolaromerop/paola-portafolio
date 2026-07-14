@@ -1464,15 +1464,14 @@ footer p {
   }
 }
 
-/* ==========================================
-   AJUSTE GENERAL - VERSIÓN MÁS COMPACTA
-   ========================================== */
+/*
+==========================================
+AJUSTE GENERAL - VERSIÓN MÁS COMPACTA
+==========================================
 
 :root {
   --max-width: 980px;
 }
-
-/* Hero */
 
 .hero-section {
   padding: 45px 4% 35px;
@@ -1504,8 +1503,6 @@ footer p {
   padding: 12px 14px;
 }
 
-/* Tarjeta */
-
 .profile-card {
   max-width: 315px;
 }
@@ -1513,8 +1510,6 @@ footer p {
 .profile-pic {
   height: 260px;
 }
-
-/* Estadísticas */
 
 .stats-grid {
   margin: 30px auto 0;
@@ -1533,8 +1528,6 @@ footer p {
   font-size: 0.72rem;
 }
 
-/* Navegación */
-
 .nav-container {
   min-height: 60px;
 }
@@ -1546,3 +1539,5 @@ footer p {
 .nav-links a {
   font-size: 0.82rem;
 }
+
+*/
