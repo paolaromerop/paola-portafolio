@@ -463,11 +463,8 @@ main {
 .profile-pic {
   width: 100%;
   height: 245px;
-
-  object-fit: contain;
-  object-position: center;
-
-  background: #f3dfd0;
+  object-fit: cover;
+  object-position: 50% 10%;
   border-radius: 18px;
 }
 
