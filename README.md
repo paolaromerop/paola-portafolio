@@ -1,3 +1,5 @@
+<img src="images/portfolio-preview.png" width="100%">
+
 # 👋 Paola Romero | Data Analyst • Business Intelligence • Data Science
 
 Welcome to my portfolio repository!
