@@ -1468,6 +1468,7 @@ footer p {
 ==========================================
 AJUSTE GENERAL - VERSIÓN MÁS COMPACTA
 ==========================================
+*/
 
 :root {
   --max-width: 980px;
@@ -1539,5 +1540,3 @@ AJUSTE GENERAL - VERSIÓN MÁS COMPACTA
 .nav-links a {
   font-size: 0.82rem;
 }
-
-*/
